@@ -1,0 +1,16 @@
+h1,
+p,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+button {
+    color: black;
+    padding: 5px;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
