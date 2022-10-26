@@ -10,6 +10,7 @@ button {
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    border-radius: 10px;
 
 }
 
@@ -35,6 +36,7 @@ body {
     background: black;
     width: 400px;
     z-index: 10;
+    border-radius: 20px;
 }
 
 #d_head {
