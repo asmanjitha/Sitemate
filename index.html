@@ -10,14 +10,25 @@
 </head>
 
 <body>
+    <div id="dialog_background">
+        <div id="dialog">
+            <div>
+                <div id="d_head">Head</div>
+                <div id="d_body">Body</div>
+                <div id="d_footer">Footer </div>
+            </div>
+        </div>
+    </div>
     <h1>Sitemate Coding Challange</h1>
     <h2>Re-Usable Confirmation Dialog</h2>
     <br>
-    <button onclick="dialogBox('Are you sure!')">Click Me</button>
+    <!-- <button onclick="dialogBox('Are you sure!')">Click Me</button> -->
+    <button onclick="myAlert.render('Custome Alert, Are you sure?')">Click Me</button>
 
     <p id="output"> </p>
 
     <script src="index.js"></script>
+
 </body>
 
 </html>
